@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_Ku8FoJTDEeaquciQlUc2bQ" name="NiagaraSupermarkets" dataPackage="_Ku8FoZTDEeaquciQlUc2bQ" Server="Localhost 127.0.0.1" FilePath="/home/maira/Desktop/TalendDemo/supermarkets.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Ku8FoZTDEeaquciQlUc2bQ" name="default" dataManager="_Ku8FoJTDEeaquciQlUc2bQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Ku8FopTDEeaquciQlUc2bQ" id="_DIpCoJTDEeaquciQlUc2bQ" label="metadata-supermarkets">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ku8Fo5TDEeaquciQlUc2bQ" label="FacilityName" length="43" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ku8FpJTDEeaquciQlUc2bQ" label="StreeetNo" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ku8FpZTDEeaquciQlUc2bQ" label="StreetName_Suffix" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ku8FppTDEeaquciQlUc2bQ" label="StreetDirection" length="1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ku8Fp5TDEeaquciQlUc2bQ" label="UnitNumber" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ku8FqJTDEeaquciQlUc2bQ" label="Municipality" length="19" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ku8FqZTDEeaquciQlUc2bQ" label="Telephone" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ku8FqpTDEeaquciQlUc2bQ" label="Fax" length="14" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ku8Fq5TDEeaquciQlUc2bQ" label="LONGITUDE" length="17" precision="14" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Ku8FrJTDEeaquciQlUc2bQ" label="LATITUDE" length="16" precision="14" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
