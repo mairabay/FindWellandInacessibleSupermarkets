@@ -1,0 +1,138 @@
+{
+   "Supermarkets":{
+      "Supermarket":[
+         {
+            "Name":"Celi & Presti Supermarket",
+            "StreetNumber":390,
+            "StreetName":"Crowland Avenue",
+            "StreetDirection":"",
+            "Unit":"",
+            "City":"Welland",
+            "Phone":"(905) 734-7166",
+            "Fax":"905-734-7067",
+            "Latitude":-79.2358552157967,
+            "Longitude":42.9843649854022
+         },
+         {
+            "Name":"Walmart",
+            "StreetNumber":102,
+            "StreetName":"Primeway Drive",
+            "StreetDirection":"",
+            "Unit":"",
+            "City":"Welland",
+            "Phone":"(905) 735-3500",
+            "Fax":"NULL",
+            "Latitude":-79.2278532258093,
+            "Longitude":43.0168721725738
+         },
+         {
+            "Name":"Shoppers Drug Mart",
+            "StreetNumber":815,
+            "StreetName":"Ontario Road",
+            "StreetDirection":"",
+            "Unit":"",
+            "City":"Welland",
+            "Phone":"905-788-2111",
+            "Fax":"NULL",
+            "Latitude":-79.2402796645236,
+            "Longitude":42.9760290445258
+         },
+         {
+            "Name":"FreshCo",
+            "StreetNumber":835,
+            "StreetName":"Ontario Road",
+            "StreetDirection":"",
+            "Unit":"",
+            "City":"Welland",
+            "Phone":"(905) 735-2525",
+            "Fax":"(905) 788-1041",
+            "Latitude":-79.2393187820877,
+            "Longitude":42.976158845183
+         },
+         {
+            "Name":"No Frills",
+            "StreetNumber":390,
+            "StreetName":"Lincoln Street",
+            "StreetDirection":"E",
+            "Unit":"",
+            "City":"Welland",
+            "Phone":"(905) 732-3367",
+            "Fax":"905-732-4176",
+            "Latitude":-79.2371734360751,
+            "Longitude":42.9847770103108
+         },
+         {
+            "Name":"Sobey's ",
+            "StreetNumber":609,
+            "StreetName":"South Pelham Road",
+            "StreetDirection":"",
+            "Unit":"",
+            "City":"Welland",
+            "Phone":"(905) 735-7467",
+            "Fax":"NULL",
+            "Latitude":-79.2870258301733,
+            "Longitude":43.0041525493836
+         },
+         {
+            "Name":"Food Basics",
+            "StreetNumber":325,
+            "StreetName":"Thorold Road",
+            "StreetDirection":"",
+            "Unit":"",
+            "City":"Welland",
+            "Phone":"(905) 735-4320",
+            "Fax":"NULL",
+            "Latitude":-79.2722178161162,
+            "Longitude":43.0028799035178
+         },
+         {
+            "Name":"Zehrs",
+            "StreetNumber":821,
+            "StreetName":"Niagara Street",
+            "StreetDirection":"",
+            "Unit":"",
+            "City":"Welland",
+            "Phone":"(905) 732-9377",
+            "Fax":"(905) 732-9216",
+            "Latitude":-79.25136443136,
+            "Longitude":43.0175335583954
+         },
+         {
+            "Name":"Shoppers Drug Mart",
+            "StreetNumber":"800 ",
+            "StreetName":"Niagara Street ",
+            "StreetDirection":"",
+            "Unit":"",
+            "City":"Welland",
+            "Phone":"(905) 735-7525",
+            "Fax":"NULL",
+            "Latitude":-79.2468110049969,
+            "Longitude":43.0159375707984
+         },
+         {
+            "Name":"Pupo's Food Market",
+            "StreetNumber":195,
+            "StreetName":"Maple Avenue",
+            "StreetDirection":"",
+            "Unit":"",
+            "City":"Welland",
+            "Phone":"(905) 735-8401",
+            "Fax":"",
+            "Latitude":-79.2593833853828,
+            "Longitude":42.9886378963182
+         },
+         {
+            "Name":"Giant Tiger",
+            "StreetNumber":200,
+            "StreetName":"Fitch Street",
+            "StreetDirection":"",
+            "Unit":"",
+            "City":"Welland",
+            "Phone":"905-735-0963",
+            "Fax":"",
+            "Latitude":-79.2656238622894,
+            "Longitude":42.9952836514357
+         }
+      ]
+   }
+}
