@@ -10,11 +10,11 @@ The Talend version used was Talend Open Studio for Enterprise Service Bus 6.3.0.
  
 ## Data ##
 
-The following were downloaded from the Niagara Open Data portal (http://niagaraopendata.ca):
-- XLS file with all Transt stops for Welland
+The following are downloaded dynamically from the Niagara Open Data portal (http://niagaraopendata.ca) via HTTP GET request in the Talend job:
+- CSV file with all Transt stops for Welland
 - CSV file with all supermarkets in Niagara
 
-The XLS file had to be opened and saved in XLSX format because Talend was not detecting the encoding of the XLS.
+This way we are sure we're always working with the most recent version of the dataset.
 
 ## Calculation ##
 
@@ -30,7 +30,7 @@ Finally, to fnd out if a supermarket is within walking distance of a bus stop, w
 
 The Talend job can be compiled into an OSGi Bundle (https://en.wikipedia.org/wiki/OSGi) and deployed in Talend's Runtime container (a web container based on Apache Karaf: https://karaf.apache.org). This will make the job available to other applications as a RESTful web service, returning a JSON file with the resulting inaccessible supermarkets.
 
-The application is currently configured to be available on the root URL. When running locally, the resulting JSON can be seen via browser request to http://localhost:8088/ (provided the "RESTService" job is running in Talend ESB or the "RESTService-0.1.jar" is deployed on a local container).
+The application is currently configured to be available on the follwing URL: "/getWellandInacessibleSupermarkets" . When running locally, the resulting JSON can be seen via browser request to http://localhost:8088/getWellandInacessibleSupermarkets (provided the "RESTService" job is running in Talend ESB or the "RESTService-0.1.jar" is deployed on a local container).
 
 Talend's Runtime container comes with the ESB installation .zip file (see link in the Technology section above).
 
@@ -39,7 +39,6 @@ To deploy Talend Runtime on a server, follow instructions here: https://help.tal
 ### Desired future enhancements: ###
 
 - Create a web interface for runnng the transformation and displaying the results. (the Talend job can be deployed in the Talend Runtime container (an implementation of Apache Karaf), making it accessible to a web front-end as RESTful webservice (returning a JSON file)).
-- Use an HTTP GET component to read the data from the Niagara Open Data portal dinamically, to give real-time results
 
 ### License: ###
 
