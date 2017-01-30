@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_VpgVYNjVEeaSopOVkZ7_1g" confirmationNeeded="false" name="local">
+    <contextParameter xmi:id="_VpgVYdjVEeaSopOVkZ7_1g" comment="" name="context_config_file" prompt="context_config_file?" promptNeeded="false" type="id_String" value="&quot;/mnt/Data/work/blogging/published/github/TalendDemo/context_config.txt&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_8a8JQNjWEeaSopOVkZ7_1g" confirmationNeeded="false" name="server">
+    <contextParameter xmi:id="_8a8JQdjWEeaSopOVkZ7_1g" comment="" name="context_config_file" prompt="context_config_file?" promptNeeded="false" type="id_String" value="&quot;/user/bin....context_config.txt&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>
