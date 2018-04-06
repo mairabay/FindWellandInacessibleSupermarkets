@@ -11,7 +11,7 @@ The Talend version used was Talend Open Studio for Enterprise Service Bus 6.3.0.
 ## Data ##
 
 The following are downloaded dynamically from the Niagara Open Data portal (http://niagaraopendata.ca) via HTTP GET request in the Talend job:
-- CSV file with all Transt stops for Welland
+- CSV file with all Transit stops for Welland
 - CSV file with all supermarkets in Niagara
 
 This way we are sure we're always working with the most recent version of the dataset.
@@ -30,15 +30,33 @@ Finally, to fnd out if a supermarket is within walking distance of a bus stop, w
 
 The Talend job can be compiled into an OSGi Bundle (https://en.wikipedia.org/wiki/OSGi) and deployed in Talend's Runtime container (a web container based on Apache Karaf: https://karaf.apache.org). This will make the job available to other applications as a RESTful web service, returning a JSON file with the resulting inaccessible supermarkets.
 
-The application is currently configured to be available on the follwing URL: "/getWellandInacessibleSupermarkets" . When running locally, the resulting JSON can be seen via browser request to http://localhost:8088/getWellandInacessibleSupermarkets (provided the "RESTService" job is running in Talend ESB or the "RESTService-0.1.jar" is deployed on a local container).
+The application is currently configured to be available on the follwing URL: "/getWellandInacessibleSupermarkets" . When running locally, the resulting JSON can be seen via browser request to http://localhost:8088/getWellandInacessibleSupermarkets (provided the "RESTService" job is running in Talend ESB or the "RESTService-0.1.jar" is deployed in a local Talend Runtime container).
 
 Talend's Runtime container comes with the ESB installation .zip file (see link in the Technology section above).
 
 To deploy Talend Runtime on a server, follow instructions here: https://help.talend.com/display/TalendESBInstallationGuide60EN/3.8.1+Installing+the+Talend+Runtime+containers.
 
+## Docker - NEW! ##
+
+The Talend job has now been updated to run on Docker!
+
+You can export the Docker-RESTService job or you can just use the Docker-RESTService-0.1.jar included in this repository and deploy it into any Docker container running Talend Runtime 6.3.0 (you can use my container, found here: https://hub.docker.com/r/mairabay/talend-runtime-esb-6.3.0/).
+
+Or if you want, there is also a full Docker container with the Web Service already depolyed in Talend Runtime. That can be found here: https://hub.docker.com/r/mairabay/niagara-open-data-demo/.
+
+## API - NEW! ##
+
+The complete Docker container is also deployed in https://niagaraopendatademo.azurewebsites.net/services/services/getWellandInaccessibleSupermarkets. 
+You can use that URL as an API service, to get the resulting JSON from this web service.
+
+## Front-End - NEW! ##
+
+We finally have a front-end for this app!!! You can access it here: https://niagaratransitacessibility.bubbleapps.io/
+
 ### Desired future enhancements: ###
 
-- Create a web interface for runnng the transformation and displaying the results. (the Talend job can be deployed in the Talend Runtime container (an implementation of Apache Karaf), making it accessible to a web front-end as RESTful webservice (returning a JSON file)).
+- Display all supermarkets in the map at the same time
+- Add other location types and cities
 
 ### License: ###
 
